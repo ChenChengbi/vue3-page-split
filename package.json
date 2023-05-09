@@ -1,0 +1,47 @@
+{
+  "name": "vue3-page-split",
+  "version": "2.1.2",
+  "description": "基于 Vue3 的面板分割",
+  "keywords": [
+    "vue",
+    "page",
+    "split",
+    "splitter",
+    "pane",
+    "panel",
+    "splittable",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable"
+  ],
+  "author": "Billy Chen",
+  "license": "MIT",
+  "homepage": "https://gitee.com/bi2008/vue3-page-split",
+  "repository": "https://gitee.com/bi2008/vue3-page-split",
+  "main": "dist/vue3-page-split.umd.cjs",
+  "module": "dist/vue3-page-split.js",
+  "unpkg": "dist/vue3-page-split.iife.js",
+  "browser": {
+    "./sfc": "src/components/page-split.vue"
+  },
+  "type": "module",
+  "private": false,
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.1",
+    "sass": "^1.62.1",
+    "vite": "^4.3.4"
+  }
+}
