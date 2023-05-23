@@ -1,6 +1,6 @@
 {
   "name": "vue3-page-split",
-  "version": "2.1.3",
+  "version": "2.2.0",
   "description": "基于 Vue3 的面板分割",
   "keywords": [
     "vue",
@@ -18,7 +18,7 @@
   "author": "Billy Chen",
   "license": "MIT",
   "homepage": "https://gitee.com/bi2008/vue3-page-split",
-  "repository": "https://gitee.com/bi2008/vue3-page-split",
+  "repository": "https://github.com/ChenChengbi/vue3-page-split",
   "main": "dist/vue3-page-split.umd.cjs",
   "module": "dist/vue3-page-split.js",
   "unpkg": "dist/vue3-page-split.iife.js",
