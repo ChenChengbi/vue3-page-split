@@ -6,6 +6,9 @@
 
 English | [简体中文](./README.md)
 
+## 🌰 Demo
+https://chenchengbi.github.io/vue-page-split/#/
+
 ## 📦 Install
 
 ``` bash

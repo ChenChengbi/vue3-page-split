@@ -6,6 +6,9 @@
 
 [English](./README.en-US.md) | 简体中文
 
+## 🌰 示例
+https://chenchengbi.github.io/vue-page-split/#/
+
 ## 📦 安装
 
 ``` bash
