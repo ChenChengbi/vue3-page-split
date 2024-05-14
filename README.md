@@ -20,42 +20,30 @@ $ npm i vue3-page-split -S
 
 ```html
 <template>
-  <SplitPane
-    :distribute="0.5"
-    :lineThickness="6"
-    :isVertical="false"
-    @resizeLineStartMove="onresizeLineStartMove"
-    @resizeLineMove="onResizeLineMove"
-    @resizeLineEndMove="onresizeLineEndMove"
-  >
+  <PageSplit :distribute="0.3" :lineThickness="6" :isVertical="true" @resizeLineStartMove="onresizeLineStartMove"
+    @resizeLineMove="onResizeLineMove" @resizeLineEndMove="onresizeLineEndMove">
     <template v-slot:first>
       <h1>A</h1>
     </template>
     <template v-slot:second>
       <h1>B</h1>
     </template>
-  </SplitPane>
+  </PageSplit>
 </template>
-<script>
+
+<script setup>
 import PageSplit from "vue3-page-split";
 import "vue3-page-split/dist/style.css";
 
-export default {
-  components: {
-    SplitPane
-  },
-  methods: {
-    onresizeLineStartMove: function() {
-      console.log("onresizeLineStartMove");
-    },
-    onResizeLineMove: function(e) {
-      console.log("onResizeLineMove :>> ", e);
-    },
-    onresizeLineEndMove: function() {
-      console.log("onresizeLineEndMove");
-    }
-  }
-};
+function onresizeLineStartMove() {
+  console.log("onresizeLineStartMove");
+}
+function onResizeLineMove(e) {
+  console.log("onResizeLineMove :>> ", e);
+}
+function onresizeLineEndMove() {
+  console.log("onresizeLineEndMove");
+}
 </script>
 ```
 
